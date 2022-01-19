@@ -4,7 +4,7 @@
 <img src="img/readme_about.png" alt="Mixtape Sessions Banner" width="100%">
 <br/>
 
-This workshop will cover foundational elements of modern practices of causal inference such as the potential outcomes model as well as discuss in detail the most common designs: regression discontinuity, instrumental variables, difference in differences, comparative case studies using synthetic control and if time permitting matching. It will be accompanied by efforts to introduce students to basic practices in programming as well as good research practices more generally. 
+This class will cover foundational elements of the design-based theory causal inference which is based on the potential outcomes model.  It will also discuss in detail the most common designs: regression discontinuity, instrumental variables, difference in differences, comparative case studies using synthetic control and if time permitting matching. It will be accompanied by efforts to introduce students to basic practices in programming as well as good research practices more generally. 
 <br/>
 
 <div align="center">
@@ -31,7 +31,7 @@ This workshop will cover foundational elements of modern practices of causal inf
 
 <b>About</b>
            
-While causal inference is a design and model based approach to estimating causal effects, it ultimately uses large data sources, computers and programming languages to do that estimation.  Thus while you can teach causal inference as separate from empirical workflow, you shouldn't. Here I discuss my own personal beliefs about empirical workflow, going through such things as missingness in data, hierarchy of directories, version control and more.  We will discuss these things.
+While the field of causal inference is a design and model based approach to estimating causal effects, in practice a worker attempting to estimate causal effects will be working with data, sometimes very large data, using their personal computer, often cloud-based storage, directories where things are stored and scripting files implementing tasks (including but not exclusively estimation itself) in some chosen programming languages.  Thus while you can teach theories about causal inference as distinct from empirical workflow, students should be trained in both as you cannot in practice have one and not the other. Here I discuss my own personal beliefs about empirical workflow, going through such things as missingness in data, hierarchy of directories, version control and more.
 
 <b>Slides</b>
            
@@ -46,7 +46,7 @@ While causal inference is a design and model based approach to estimating causal
 
 <b>About</b>
            
-The modern theory of causality is based on a seemingly simple idea called the "counterfactual".  The counterfactual is an unusual features of the arsenal of modern statistics because it is more or less storytelling about alternative worlds that may or may not exist, but could have existed had one single decision gone a different way.  Out of this idea grew what a model, complete with its own language, on top of which the field of causal inference is based, and the purpose of this lecture is to learn that language.  The language is called potential outcomes and it forms the basis for many causal objects we tend to be interested in, such as the average treatment effect. I also cover randomization, selection bias and randomization inference.
+The modern theory of causality is based on a seemingly simple idea called the "counterfactual".  The counterfactual is an unusual element in the arsenal of modern statistics because counterfactuals are really just thought experiments and stories we tell about alternative realities that may or may not exist depending on whether we think the philosopher David Lewis was right.  But regardless, the thought experiments usually involve considering what would have happened had a single choice gone a different way. This type of reasoning was formalized in the 1920s both conceptually and with a type of notation that has persisted to this data (Neyman 1923) and is now sometimes called "potential outcomes".  Potential outcomes is a theory of causality, a formalized modeling of causality that comes with it a complete set of terms and concepts, and without understanding it, you will not be able to make much progress in understanding research designs as all contemporary research designs and increasingly the econometric estimators themselves are built on top of the potential outcomes framework. The purpose of this lecture is to learn that language and the formalized concepts (e.g., treatment effects) used for causal parameters.  I also cover randomization, selection bias and randomization inference in this lecture.
 
 
 <b>Slides</b>
