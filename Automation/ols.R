@@ -18,5 +18,5 @@ fixest::etable(no_cov, cov,
 ## File
 fixest::etable(no_cov, cov,
 			   title = "OLS estimates of effect of college on log wages",
-			   tex = T, file = "estout/education.tex"
+			   tex = T, file = "education.tex"
 )
