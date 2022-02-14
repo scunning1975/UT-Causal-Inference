@@ -11,7 +11,7 @@ egen 	te1 = mean(got) if any==1
 egen 	te0 = mean(got) if any==0
 
 collapse (mean) te1 te0
-gen 	ate = te1 - te0
+gen 	ate = abs(te1 - te0)
 keep 	ate
 gen iteration = 1
 
@@ -40,7 +40,7 @@ egen 	te1 = mean(got) if any==1
 egen 	te0 = mean(got) if any==0
 
 collapse (mean) te1 te0
-gen 	ate = te1 - te0
+gen 	ate = abs(te1 - te0)
 keep 	ate
 
 gen 	iteration = `i'
